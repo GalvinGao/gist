@@ -994,7 +994,7 @@
     case CAPABILITY.FULL:
       document.getElementById("supportDetectionSupported").style.display = "block";
       document.body.classList.add("success");
-      setTimeout(() => {
+      setTimeout(function() {
         document.getElementById("noResponseAnchor").style.display = "block"
       }, 5000);
       // go('https');
